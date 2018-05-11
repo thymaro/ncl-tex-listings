@@ -13,3 +13,5 @@ If you are using _TeXstudio_ (like I am), hit and hold `Ctrl`, then click on `nc
 Learn how to access the file anyway. Look it up on [tex.se](tex.stackexchange.com) or whatever.
 
 Ok, nuff kiddin'. I know nobody will ever read this. I mean, who on earth uses TeX **and** NCL in one sitting?! You nerds!
+
+Nevertheless, if you see a way to improve on this file, please feel free to fork it and add a pull request.
