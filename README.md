@@ -13,7 +13,7 @@ If you found this page, I figure you already know this, but in case you don't: y
 ```tex
 \usepackage{listings}
 
-\lstset{%
+\lstset{ <-- you also need to add a percent sign here, but I can't do it, since it breaks github pages compilation for some reason.
         language=ncl,
 	escapeinside={(*}{*)},
 	% FRAME
