@@ -1,5 +1,7 @@
-# ncl-tex-listings
+# NCL language definition for use with the L<sup>A</sup>T<sub>E</sub>X `listings` package
 This is simply a language definition file for NCAR Command Language (NCL) to use with TeX's and LaTeX's listings package.
+
+If you use `minted`, I can't help you (yet).
 
 To use it, just download the [`.tex`](https://github.com/thymaro/ncl-tex-listings/blob/master/ncl-tex-listings.tex) (right-click and choose "save destination file" or similar), put it next to your main `.tex` document in the same directory and write the following line in your preamble:
 
@@ -11,7 +13,8 @@ If you found this page, I figure you already know this, but in case you don't: y
 ```tex
 \usepackage{listings}
 
-\lstset{language=ncl,
+\lstset{%
+        language=ncl,
 	escapeinside={(*}{*)},
 	% FRAME
 	frame=single,
