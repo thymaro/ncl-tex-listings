@@ -1,5 +1,4 @@
-# NCL language definition for use with the L<sup>A</sup>T<sub>E</sub>X `listings` package
-This is simply a language definition file for NCAR Command Language (NCL) to use with TeX's and LaTeX's listings package.
+# NCL language definition for use with the LaTeX "listings" package
 
 If you use `minted`, I can't help you (yet).
 
@@ -13,7 +12,7 @@ If you found this page, I figure you already know this, but in case you don't: y
 ```tex
 \usepackage{listings}
 
-\lstset{ <-- you also need to add a percent sign here, but I can't do it, since it breaks github pages compilation for some reason.
+\lstset{ <-- add a percent sign here, but I can't do it, it breaks github pages compilation.
         language=ncl,
 	escapeinside={(*}{*)},
 	% FRAME
