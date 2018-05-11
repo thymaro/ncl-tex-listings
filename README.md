@@ -11,8 +11,7 @@ If you found this page, I figure you already know this, but in case you don't: y
 ```tex
 \usepackage{listings}
 
-\lstset{%
-	language=ncl,
+\lstset{language=ncl,
 	escapeinside={(*}{*)},
 	% FRAME
 	frame=single,
