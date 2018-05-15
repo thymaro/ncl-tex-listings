@@ -1,6 +1,8 @@
 # NCL language definition for use with the LaTeX "listings" package
 
-If you use `minted`, I can't help you (yet).
+A pretty version of this page is available at https://thymaro.github.io/ncl-tex-listings/, unless you're already there, in which case it won't get any prettier than this.
+
+If you use `minted`, I can't help you (yet). You can request this feature, but if noone asks I won't develop it as long as I don't need it myself. So, without question, it's unlikely this will ever be implemented.
 
 To use it, just download the [`.tex`](https://github.com/thymaro/ncl-tex-listings/blob/master/ncl-tex-listings.tex) (right-click and choose "save destination file" or similar), put it next to your main `.tex` document in the same directory and write the following line in your preamble:
 
